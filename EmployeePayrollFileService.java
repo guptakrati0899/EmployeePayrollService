@@ -33,7 +33,7 @@ public class EmployeePayrollFileService {
 	}
 
 	public long countEntries() {
-		// TODO Auto-generated method stub
+	
 		long entries = 0;
 		try {
 			entries = Files.lines(new File(PAYROLL_FILE_NAME).toPath()).count();
